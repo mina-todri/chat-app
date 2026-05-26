@@ -1,0 +1,126 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code
+.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android - Entire native build
+/android/.gradle/
+/android/build/
+/android/**/build/
+/android/app/debug/
+/android/app/profile/
+/android/app/release/
+/android/local.properties
+/android/gradle/
+android/*.jks
+android/*.keystore
+
+# iOS - Entire native build
+/ios/Pods/
+/ios/Podfile.lock
+/ios/Flutter/Flutter-Release.xcconfig
+/ios/Flutter/ephemeral/
+/ios/Flutter/flutter_export_environment.sh
+/ios/*.xcarchive
+/ios/*.xcworkspace/xcuserdata
+/ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+
+# macOS
+/macos/Pods/
+/macos/Flutter/Flutter-Release.xcconfig
+/macos/Flutter/ephemeral/
+/macos/Flutter/flutter_export_environment.sh
+
+# Linux
+/linux/flutter/generated_plugin_registrant.cc
+/linux/flutter/generated_plugins.cmake
+/linux/build/
+
+# Windows
+/windows/flutter/generated_plugin_registrant.cc
+/windows/flutter/generated_plugins.cmake
+/windows/build/
+
+# Web
+/web/canvaskit/
+
+# Firebase & Secrets
+google-services.json
+GoogleService-Info.plist
+firebase.json
+.firebase/
+.firebaserc
+lib/firebase_options.dart
+.runtimeconfig.json
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.classpath
+.c9/
+*.el
+*.lit
+*.ls
+*.sublime-workspace
+
+# Packages
+.packages
+.flutter-plugins
+pubspec.lock
+.fvm/
+fvm_version
+
+# VSCode or Android Studio specific directories
+**/.vscode/**
+**/.idea/**
+
+# Generated files
+**/.dart_tool/
+**/.flutter-plugins
+**/pubspec.lock
